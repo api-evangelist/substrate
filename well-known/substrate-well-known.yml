@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://substrate.com/.well-known/
+host: https://substrate.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: substrate-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: not-checked
+- path: /.well-known/api-catalog
+  status: not-checked
+- path: /.well-known/ai-plugin.json
+  status: not-checked
